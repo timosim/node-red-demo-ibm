@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: node-red-demo-ibm
+  host: node-red-demo-ibm
+  disk_quota: 1024M
+  services:
+  - node-red-demo-ibm-cloudantNoSQLDB
